@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Rutuja | Creative Portfolio</title>
+  <meta name="description" content="Portfolio of Rutuja Gondane – Web Developer, Innovator, and Learner.">
+  <link rel="icon" href="me.jpg" type="image/jpg">
+
+  <!-- Techy Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#resume">Resume</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="hero" data-aos="fade-in">
+    <h1>Hi, I'm Rutuja</h1>
+    <p class="typing-text"><span>Web Developer | Innovator | Learner</span></p>
+  </header>
+
+  <!-- About -->
+  <section class="about-section" id="about" data-aos="fade-up">
+    <div class="section-heading-box"><h2>About Me</h2></div>
+    <div class="project">
+      <img src="me.jpg" alt="Rutuja" class="about-img" />
+      <div class="project-text">
+        <p>I'm a passionate IT student with expertise in web and mobile development. I love transforming ideas into real-world solutions using Python, JavaScript, and modern frameworks.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section class="skills-section" id="skills" data-aos="zoom-in">
+    <div class="section-heading-box"><h2>My Skills</h2></div>
+    <div class="skills-grid">
+      <div class="skill-card"><i class="fas fa-code"></i> HTML</div>
+      <div class="skill-card"><i class="fab fa-css3-alt"></i> CSS</div>
+      <div class="skill-card"><i class="fab fa-js"></i> JavaScript</div>
+      <div class="skill-card"><i class="fab fa-python"></i> Python</div>
+      <div class="skill-card"><i class="fas fa-database"></i> SQL</div>
+      <div class="skill-card"><i class="fab fa-react"></i> React</div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section class="projects-section" id="projects">
+    <div class="section-heading-box"><h2>Projects</h2></div>
+
+    <div class="project alt" data-aos="fade-left">
+      <img src="landing.jpg" alt="Online Movie Ticket Booking System" />
+      <div class="project-text">
+        <h3>Online Movie Ticket Booking System</h3>
+        <p>A user-friendly web app to browse movies, select showtimes, and book tickets. Features include real-time seat selection, booking confirmation, and payment integration.</p>
+      </div>
+    </div>
+
+    <div class="project" data-aos="fade-right">
+      <img src="calci.jpg" alt="Calculator App" />
+      <div class="project-text">
+        <h3>Calculator App with Dark & Light Mode</h3>
+        <p>A sleek calculator app supporting basic arithmetic, with a theme toggle for better usability.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Resume -->
+  <section class="resume" id="resume" data-aos="zoom-in">
+    <div class="section-heading-box"><h2>My Resume</h2></div>
+    <p>Here's a summary of my professional experience, skills, and education—carefully crafted to showcase my journey.</p>
+    <div class="resume-btn-wrapper">
+      <a href="Modern Minimalist CV Resume.pdf" download class="download-btn">Download Resume</a>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="contact-section" id="contact" data-aos="fade-up">
+    <div class="section-heading-box"><h2>Contact Me</h2></div>
+    <div class="contact-grid">
+      <div class="contact-card" data-aos="zoom-in">
+        <i class="fas fa-envelope"></i>
+        <p><strong>Email:</strong><br><a href="mailto:rutujagondane1034@gmail.com">rutujagondane1034@gmail.com</a></p>
+      </div>
+      <div class="contact-card" data-aos="zoom-in" data-aos-delay="200">
+        <i class="fab fa-linkedin"></i>
+        <p><strong>LinkedIn:</strong><br>
+        <a href="https://www.linkedin.com/in/rutuja-gondane-651483319">linkedin.com/in/rutuja-gondane</a></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 ROSS. All rights reserved.</p>
+  </footer>
+
+  <!-- AOS Script -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({ duration: 1000, once: true });
+  </script>
+</body>
+</html>
